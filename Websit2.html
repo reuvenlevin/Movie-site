@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Faq.css" />
+    <link rel="stylesheet" href="Navagation.css" />
+    <link rel="stylesheet" href="App.css" />
+    <link rel="stylesheet" href="button.css" />
+
+
+    <title>Website 2</title>
+  </head>
+  <body>
+    
+  <b><h1>Movies + </h1> </b>
+  <div class = "slogan" >
+    <i><b><h3>We sell movie tickets at the lowest price!</h3></b></i>
+  </div>
+    <div>
+    <nav class="active" id="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <button class="icon" id="toggle">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+      </button>
+    </nav>
+  </div>
+  <script src="Navagation.js"></script>
+  
+    <table>
+      <tr>
+        <th>Tickets</th>
+        <th>Prices</th>
+        
+      </tr>
+      <tr>
+        <td>General Admission</td>
+        <td>$11.99</td>
+      </tr>
+      <tr>
+        <td>Students</td>
+        <td>$9.99</td>
+      </tr>
+      <tr>
+        <td>Disabilities</td>
+        <td>$9.99</td>
+      </tr>
+      <td>Veterans</td>
+      <td>$7.99</td>
+    </tr>
+    </table>
+    <header>
+        <form id="form">
+          <input type="text" id="search" class="search" placeholder="Search">
+        </form>
+      </header>
+  
+      <main id="main"></main>
+  
+      <script src="App.js"></script>
+  </body>
+  <footer>
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-container">
+      <div class="faq active">
+        <h3 class="faq-title">
+          Where can I print out my tickets?
+        </h3>
+
+        <p class="faq-text">
+          Either by the main desk or take a screenshot.
+        </p>
+
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <div class="faq">
+        <h3 class="faq-title">
+          Can I exchange my ticket to a diffrent time?
+        </h3>
+        <p class="faq-text">
+          Yes. but there is a fare diffrence.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-title">
+          Where can I locate the times?
+        </h3>
+        <p class="faq-text">
+          Click on the movie to view its times.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-title">
+          Is outside food and beverage allowed inside the theater?
+        </h3>
+        <p class="faq-text">
+          We do not allow any outside foods or beverages but we do serve foods and beverages that you can enjoy.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <div class="faq">
+        <h3 class="faq-title">
+          Where can I locate my order?
+        </h3>
+        <p class="faq-text">
+          In the navagation bar and below.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+    </div>
+    <script src="FAQ.js"></script>
+    <p>Can't find what you are looking for? Talk to a representative now.</p>
+    <div class="ripple">
+        <button class="ripple">Customer Service</button>
+    <script src="button.js"></script>
+    <hr>
+    <div id="newsletter" class="newsletter-popup">
+      <div class="newsletter-popup" style="padding:32px">
+        <div class="newsletter-popup-backround">
+          <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+          <h2 class="newsletter">NEWSLETTER</h2>
+         <h3>Join our mailing list to receive updates on new movies and special offers.</h3>
+          <p><input class="notif-button2" type="text" placeholder="Enter e-mail"></p>
+          <button type="button" class="notif-button" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="About">
+      <h1>Movies +  </h1>
+      <h3>Contact-Info: <a href="https://unsplash.com/s/photos/sightseeing">Contact Us</a></h3>
+    <h3>Refunds:<a href="https://unsplash.com/s/photos/sightseeing">Refunds and Exchanges</a></h3>
+    <h3>My Orders:<a href="https://unsplash.com/s/photos/sightseeing">My Orders</a></h3>
+    <h3>FAQs:<a href="https://unsplash.com/s/photos/sightseeing">FAQs</a></h3>
+    <h3>About Us:<a href="https://unsplash.com/s/photos/sightseeing">About Us</a></h3>
+  </div>
+    <h5>Powered by: Reuven Levin Inc. <a href="ReuvenLevinInc.com">ReuvenlevinInc.com</a>
+</div>
+    
+</footer>
+</html>
